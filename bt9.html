@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a = prompt("Hãy nhập số a");
+        let b = prompt("Hãy nhập số b");
+        let c = prompt("Hãy nhập số c");
+        if (a > b && a > c) {
+            if (b > c) {
+                document.write("a là số lớn nhất " + a);
+                document.write("c là số nhỏ nhất " + c);
+            } else {
+                document.write("a là số lớn nhất " + a);
+                document.write("b là số nhỏ nhất " + b);
+
+            }
+        } else if (b > a && b > c) {
+            if (a > c) {
+                document.write("b là số lớn nhất " + b);
+                document.write("c là số nhỏ nhất " + c);
+            } else {
+                document.write("b là số lớn nhất " + b);
+                document.write("a là số nhỏ nhất " + a);
+            }
+        } else if (c > a && c > b) {
+            if (a > b) {
+                document.write("c là số nhỏ nhất " + c);
+                document.write("b là số nhỏ nhất " + b);
+            }else {
+                document.write("c là số lớn nhất " + c);
+                document.write("a là số nhỏ nhất " + a);
+                
+            }
+
+
+        }
+
+
+
+    </script>
+</body>
+
+</html>
